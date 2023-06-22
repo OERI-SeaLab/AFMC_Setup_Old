@@ -71,3 +71,20 @@ Thursday & Friday: Deployment and Building
 * Azure World Anchors Example
 * Azure Blob storage example
 * Network Multiple People Example through Azure
+
+## Hardware Setup for the Events
+
+* Need some backup equipment just in case for installation pieces
+
+## Topics
+
+* Flat tracking items
+
+## Use Case
+
+* Data sets already in PT cloud format
+* View Examine points
+* Select points to get meta data
+* potree
+* 3 HoloLens 2 and a few Laptops
+* Local Lan / Network data
