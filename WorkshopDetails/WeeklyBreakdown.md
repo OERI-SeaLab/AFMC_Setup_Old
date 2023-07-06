@@ -20,14 +20,12 @@
 ### Project Management, Workflows, Unity3D
 
 * 9-9:30: Day 1 Recap & Day 2 Goals Outline
-* 9:30-11: Working with Git, GitHub, and understanding workflows
-* 11-11:30: Reflection & Q&A Session
-* 11:30-12: Break
+* 9:30-12: Working with Git, GitHub, and understanding workflows
 * 12-1: Introduction to Unity3D for HoloLens 2
 * 1-2: Lunch Break
 * 2-3:30: Hands-on: Participants try creating a simple Unity3D project
-* 3:30-4: Break
-* 4-4:45: Exploring the translation of Unity3D projects to HoloLens 2
+* 3:30-4: Q&A Tied to Unity Software Roadmaps - DOTS/ECS, Content/Asset management etc.
+* 4-4:45: Unity3D & HoloLens 2 introductions to MRTK
 * 4:45-5: Reflection, Wrap up & Day 2 Feedback
 
 ## Wednesday
@@ -36,12 +34,12 @@
 
 * 9-9:30: Day 2 Recap & Day 3 Goals Outline
 * 9:30-11: Introduction to MRTK: themes, interactions, user experience
-* 11-11:30: Break
+* 11-11:15: Small Break
 * 11:30-12:30: In-depth understanding of code for eye and hand tracking
 * 12:30-1:30: Lunch Break
-* 1:30-3: Hands-on: Participants use MRTK in their Unity3D project
-* 3-3:30: Break
-* 3:30-4:30: Extended hands-on session and peer review
+* 1:30-3: Hands-on: Participants use MRTK in their Unity3D project for different UX interactions
+* 3-3:15: Small Break
+* 3:15-4:30: Extended hands-on session tied to customization of MRTK
 * 4:30-5: Reflection, Wrap up & Day 3 Feedback
 
 ## Thursday
