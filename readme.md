@@ -66,8 +66,14 @@ Wednesday: In Depth MRTK Profiles and Unity Project Settings for UWP
 * Input Interactions with hands, eyes, & voice
 * Gaining access to lower level requests with cameras and depth data on board
 
-Thursday & Friday: Deployment and Building
+Thursday & Friday
 
-* Azure World Anchors Example
-* Azure Blob storage example
-* Network Multiple People Example through Azure
+* [Holographic Remote Overview](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/native/holographic-remoting-overview)
+* [Establish and setup a Unity Environment](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/use-pc-resources) for the following
+  * Preview/Debug Unity Application
+  * Resources of the PC to power the app instead of the HoloLens systems
+  * "In either case, inputs from the HoloLens--gaze, gesture, voice, and spatial mapping--are sent to the PC, content is rendered in a virtual immersive view, and the rendered frames are then sent to the HoloLens."
+* Can get into Azure concepts or use the time leftover to go back through other things
+* If you're all in on the Holographic remote you don't need to build custom Hololens apps for cloud connecting, just build native PC apps that do that and hand that off to your remote holographic application
+* Potree is a WebGL setup: maybe a way to utilize WebXR and the HoloLens as a viewer but would need to better understand Potree.
+  * Looking into alternative options here like [FastPoints](https://github.com/eliasnd/FastPoints)
