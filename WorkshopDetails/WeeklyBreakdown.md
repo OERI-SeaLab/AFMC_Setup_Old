@@ -7,12 +7,12 @@
 ### Setup and Configuration
 
 * 9-10: Welcome & Introduction (Outline the goals for the day)
-* 10-11:30: Understanding HoloLens 2 Hardware, setting up the device
-* 11:30-12: Reflection & Q&A Session
+* 10-11: Building out our space for the week (sharing and building in a space): things to consider for a development space for mixed reality.
+* 11-12: Understanding HoloLens 2 Hardware and initial device setup
 * 12-1: Lunch Break
 * 1-3: Introduction to Visual Studio and Unity3D. Setting up the software.
-* 3-3:30: Break
-* 3:30-4:30: Hands-on: Participants try setting up the software
+* 3-30: Q&A Session / small break
+* 3:30-4:30: Hands-on: Participants try out some tethered examples via Unity/Microsoft and further extension of setting up the software
 * 4:30-5: Reflection, Wrap up & Day 1 Feedback
 
 ## Tuesday
