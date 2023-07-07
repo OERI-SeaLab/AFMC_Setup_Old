@@ -20,7 +20,7 @@
 ### Project Management, Workflows, Unity3D
 
 * 9-9:30: Day 1 Recap & Day 2 Goals Outline
-* 9:30-12: Working with Git, GitHub, and understanding workflows
+* 9:30-12: Working with Git, GitHub, and understanding workflows associated with Unity
 * 12-1: Introduction to Unity3D for HoloLens 2
 * 1-2: Lunch Break
 * 2-3:30: Hands-on: Participants try creating a simple Unity3D project
