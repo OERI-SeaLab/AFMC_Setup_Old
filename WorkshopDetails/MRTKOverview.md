@@ -26,6 +26,8 @@ Now with all of that being said, everyone else has just about caught up and the 
 
 ## Spatial Awareness
 
+- Using [ARMeshManager with MRTK3](https://localjoost.github.io/Using-ARMeshManager-for-Spatial-Awareness-with-MRTK3-on-HoloLens-2/)
+
 ## MRTK Shader
 
 ### MRTK Resources
