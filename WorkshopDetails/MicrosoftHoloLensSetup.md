@@ -61,8 +61,9 @@ Currently just using Community 2022 but any paid version will work as well. Ther
 
 ## MRTK Tools Installation
 
-- [MRTK Setup Tools for Windows and Unity](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/new-openxr-project-with-mrtk)
-
+- [MRTK 3 setup for Windows and Unity](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/new-openxr-project-with-mrtk)
+- [MRTK Download Unity Tools](https://www.microsoft.com/en-us/download/details.aspx?id=102778)
+- [Starting from a new Unity Project](https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/setting-up/setup-new-project)
 
 ## VLC Stream Setup
 
