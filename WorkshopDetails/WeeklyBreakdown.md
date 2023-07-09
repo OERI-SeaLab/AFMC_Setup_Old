@@ -15,7 +15,7 @@
 * 1-3: Introduction to configuring Visual Studio and Unity3D for a HoloLens
 * 3-30: Q&A Session: what's the longer term goals for the group, is there expectations to be utilizing HMD hardware in this capacity for the next 3+ years?
 * Small Break - coffee/restroom
-* 3:30-4:30: Hands-on: Participants try out some tethered examples via Unity/Microsoft and further extension of setting up the software
+* 3:30-4:30: Hands-on: Participants try out some remote/wireless examples via Unity/Microsoft and further extension of setting up the software
 * 4:30-5: Reflection, Wrap up & Day 1 Feedback
 
 ## Tuesday
@@ -23,12 +23,12 @@
 ### Project Management, Workflows, Unity3D
 
 * 9-9:30: Day 1 Recap & Day 2 Goals Outline
-* 9:30-12: Working with Git, GitHub, and understanding workflows associated with Unity
-* 12-1: Introduction to Unity3D for HoloLens 2
+* 9:30-12: Introduction to Unity and Working with Git, GitHub, and understanding workflows
+* 12-1: 3D Modeling Software Installs and processes with Unity
 * 1-2: Lunch Break
-* 2-3:30: Hands-on: Participants try creating a simple Unity3D project
+* 2-3:30: Hands-on: 3D modeling and Modifying Unity Projects with 3D models Part 1
 * 3:30-4: Q&A Tied to Unity Software Roadmaps - DOTS/ECS, Content/Asset management etc.
-* 4-4:45: Unity3D & HoloLens 2 introductions to MRTK
+* 4-4:45: Taking what we know and introducing MRTK profiles and getting ready for Unity & HoloLens 2 development
 * 4:45-5: Reflection, Wrap up & Day 2 Feedback
 
 ## Wednesday
@@ -40,9 +40,9 @@
 * 11-11:15: Small Break
 * 11:30-12:30: In-depth understanding of code for eye and hand tracking
 * 12:30-1:30: Lunch Break
-* 1:30-3: Hands-on: Participants use MRTK in their Unity3D project for different UX interactions
+* 1:30-3: Hands-on: Participants use MRTK in their Unity3D project for different UX interactions and modifying existing samples
 * 3-3:15: Small Break
-* 3:15-4:30: Extended hands-on session tied to customization of MRTK
+* 3:15-4:30: More extensions and utilizing existing work to build and extend customization of MRTK
 * 4:30-5: Reflection, Wrap up & Day 3 Feedback
 
 ## Thursday
