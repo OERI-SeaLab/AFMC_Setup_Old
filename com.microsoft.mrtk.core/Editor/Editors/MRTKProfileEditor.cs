@@ -260,9 +260,18 @@ namespace Microsoft.MixedReality.Toolkit.Editor
 
         private void DrawSelectedMixer()
         {
-            EditorGUILayout.ObjectField(
+            if(serializedMixerGroup == null)
+            {
+                Debug.LogError($"Missing a reference to the Mixer Group");
+                //serializedMixerGroup = 
+            }
+            else
+            {
+                EditorGUILayout.ObjectField(
                 serializedMixerGroup,
                 typeof(AudioMixerGroup));
+            }
+            
         }
 
         /// <summary>

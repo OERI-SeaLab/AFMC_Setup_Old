@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90cf125cb06313d41bc947fb7e884a06, type: 3}
+  m_Name: VMASC_MRTK_Theme
+  m_EditorClassIdentifier: 
+  buttonStyle:
+    backPlateMaterial: {fileID: 0}
+    frontPlateHighlightMaterial: {fileID: 0}
+    backPlateHighlightMaterial: {fileID: 0}
+    fontStyleSheetName: 
+    sprites:
+      add: {fileID: 0}
+      check: {fileID: 0}
+      circle: {fileID: 0}
+      close: {fileID: 0}
+      contacts: {fileID: 0}
+      favorite: {fileID: 0}
+      music: {fileID: 0}
+      play: {fileID: 0}
+      search: {fileID: 0}
+      trash: {fileID: 0}
+      volume: {fileID: 0}
+  slateStyle:
+    backPlateMaterial: {fileID: 0}
+    fontStyleSheetName: 

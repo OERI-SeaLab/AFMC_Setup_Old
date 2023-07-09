@@ -8,10 +8,13 @@
 
 * 9-10: Welcome & Introduction (Outline the goals for the day)
 * 10-11: Building out our space for the week (sharing and building in a space): things to consider for a development space for mixed reality.
+* Small Break - coffee/restroom
 * 11-12: Understanding HoloLens 2 Hardware and initial device setup
+  * Hopefully convey it's a technological impressive headset, still not fully there on long term usability, and some fantastic developer hardware to prepare for the next few years.
 * 12-1: Lunch Break
-* 1-3: Introduction to Visual Studio and Unity3D. Setting up the software.
-* 3-30: Q&A Session / small break
+* 1-3: Introduction to configuring Visual Studio and Unity3D for a HoloLens
+* 3-30: Q&A Session: what's the longer term goals for the group, is there expectations to be utilizing HMD hardware in this capacity for the next 3+ years?
+* Small Break - coffee/restroom
 * 3:30-4:30: Hands-on: Participants try out some tethered examples via Unity/Microsoft and further extension of setting up the software
 * 4:30-5: Reflection, Wrap up & Day 1 Feedback
 
