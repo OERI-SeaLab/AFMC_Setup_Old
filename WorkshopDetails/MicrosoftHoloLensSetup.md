@@ -35,11 +35,31 @@ The HoloLens 2 is a fully stand-alone device that allows for highly accurate loc
 
 The HoloLens 2 is different then most of the other HMD's currently publicly available, most cases going forward for a mixed reality experience you are going to be dealing with Video Pass through - the HoloLens uses a transparent diffractive optical element (DOE) waveguide system.
 ![WaveGuide](./Images/hololensWaveGuidePatent.jpg)
-One of the sort of issues with DOE's is going to be the chroma aberrations and it's why when you look through the HoloLens 2 you sometimes see that sort of oil slick color effect: the light is being broken up and very much like a 'prism' so you have the separation of colors and various sort of focal lengths as it bounces around the waveguide and then it gets reassembled on the grating prior to going back to your eye. 
+
+One of the sort of issues with DOE's is going to be the chroma aberrations and it's why when you look through the HoloLens 2 you sometimes see that sort of oil slick color effect: the light is being broken up and very much like a 'prism' so you have the separation of colors and various sort of focal lengths as it bounces around the waveguide and then it gets reassembled on the grating prior to going back to your eye.
 
 ### Room Setup
 
-Depending upon what you're doing and/or use case there are a few staple conditions to consider
+Depending upon what you're doing and/or use case there are a few staple conditions to consider that deal with lighting, color, space, and surfaces. In an ideal world your physical setup matches your place of performance. E.g. you have access to a warehouse close by for a remote warehouse use case on deployment. In most cases this won't work out, and we can talk about what to expect in those situations and how you can counter them.
+
+- Developing for XR requires two sort of setups: 1.) your normal computer space (office space etc.) and 2.) an open room that you have the ability to setup a physical test environment that meets the standards of what it is you're trying to do. This second space is what we're going to focus in on.
+- Ideally you want to be a well light room but you don't want to be fighting natural light as the display cannot compete with direct bright surfaces and or light.
+- If you know you're going to be in a controlled environment and you are going to be evaluating a lot of vertical information where the user is looking at the horizon and up, you might consider utilizing and painting a wall a darker color or having some sort of dark backdrop.
+- Similar sized rooms with similar 'office' furniture layouts can sometimes confuse the device.
+- Breaking up the floor and/or close walls
+- Walking the space beforehand and confirming the captured environment within the HoloLens web server is adequate - not missing large areas and/or gaps in the on-board spatial map and/or evaluating that space to find those gaps and/or places where the device has issues tracking and being aware of them and/or avoiding them
+- Table-top experiences should be flat and free of other items
+- Avoid mirrors and/or heavily glass based areas
+- Anything that reflects light can cause the depth sensor to do funny things sometimes but the HoloLens has some pretty good redundancies built in.
+- In most cases your dedicated machine should have dedicated GPU resources. Until Apple finally offers their VR device - we still suggest running NVidia RTX cards and custom rigs for this level of work.
+
+#### Let's Configure our Space
+
+Before we jump into the device - let's use what we have currently in the lab to get that space setup. We have some table clothes that we can utilize and I have some different color paper here to help showcase the differences in surface color and material in contrast to the vision system. Given the sensor information explained above - we can expect the depth map to update on static items every 1-5 seconds within 1-3 meters of the device - in some cases it won't register smaller items at all that aren't close to a flat surface.
+
+Let's go ahead and pull out our devices - assuming you all have them configured for you - if not we can walk through that process, if you do, let's walk the space so we can build the local map. 
+
+> Please connect them to our wi-fi.
 
 ## OS Requirements and Emulation Setup
 
@@ -145,6 +165,15 @@ You can also find this via [Microsoft Mixed Reality Toolkit](https://github.com/
 - ![Unity Package Manager](./Images/PackageManager.png)
 - MRTK Profiles
 
+## Unity Build Example && Visual Studio Remote Deploy
+
+We are going to just attempt at a quick test build using Unity to build for UWP and then Visual Studio to deploy it over Wi-Fi.
+
+- Unity Build Settings should already be done for you
+  - After it builds open up the *.SLN file in the folder you told it about
+- In Visual Studio: On the menu bar, select Project > Properties > Configuration Properties > Debugging
+- In the Machine name field fill out the HoloLens IP address
+
 ## VLC Stream Setup
 
 You can also utilize VLC to stream and it's a little faster with about 1 second delay vs 3-5 via the web server running on the HoloLens 2.
@@ -160,7 +189,7 @@ You can also utilize VLC to stream and it's a little faster with about 1 second 
 > Fonts on the HoloLens 2: stick between 14-18pt when viewed from 18" away. Avoid semilight fonts as they will wiggle under a 42pt
 ---
 
-#### References
+## References
 
 - [Microsoft Introduction To Mixed Reality](https://learn.microsoft.com/en-us/training/modules/intro-to-mixed-reality/)
 - [Mixed Reality Cloud Services: Azure Remote Rendering](https://azure.microsoft.com/en-us/products/remote-rendering)
@@ -169,3 +198,4 @@ You can also utilize VLC to stream and it's a little faster with about 1 second 
   - [HoloLens Emulator Download Links]([Title](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/hololens-emulator-archive))
 - [Remote App HoloLens](https://learn.microsoft.com/en-us/training/modules/pc-holographic-remoting-tutorials/)
 - [Technical Details on the H2 Display](https://kguttag.com/2020/07/04/hololens-2-display-evaluation-part-1-lbs-visual-sausage-being-made/)
+- [QR Code Tracking](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/qr-code-tracking-overview)

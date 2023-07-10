@@ -1,79 +1,82 @@
-# Workshop Repository
+# Weekly Breakdown
 
-This is just a place for me to drop content and pieces to put together for the workshop.
+* Note: For us it's crucial to structure the workshop in a way that balances both the learning aspect and the hands-on experience. Right now Thursday & Friday are dedicated to expanding upon what we cover in the first three days, that being said we are also going to open up those days more with the groups overall needs as we get half-way through the week: if you all as a group would rather use those days for us to work on specific applications needs and/or work on building out a potential plan to help specific use cases we will be more than welcome to open that up. Here's the current detailed structure for the day:
 
-This repository shouldn't be public as we might have purchased content in it but can be a place to bring such content together for redistribution later as needed
+## Monday
 
-## MRTK Setup Related
+### Setup and Configuration
 
-## Software Requirements
+* 9-10: Welcome, Introduction, GitHub Access, and Day 1 Goals Outline
+* 10-11: Building out our space for the week (sharing and building in a space): things to consider for a development space for mixed reality.
+* Small Break - coffee/restroom
+* 11-12: Understanding HoloLens 2 Hardware and initial device setup
+  * Hopefully convey it's a technological impressive headset, still not fully there on long term usability, and some fantastic developer hardware to prepare for the next few years.
+* 12-1: Lunch Break
+* 1-3: Introduction to Unity and HoloLens 2 examples: configuring Visual Studio for Remote Build
+* 3-30: Q&A Session: what's the longer term goals for the group, is there expectations to be utilizing HMD hardware in this capacity for the next 3+ years?
+* Small Break - coffee/restroom
+* 3:30-4:30: Hands-on: Participants try out some remote/wireless examples via Unity/Microsoft and further extension of setting up the software
+* 4:30-5: Reflection, Wrap up & Day 1 Feedback
 
-* GitHub Desktop
-* Git
-* Git LFS
-* Unity
-* MRTK
-* Ability to connect USB
-* Other?
+## Tuesday
 
-## Course Topics
+### Project Management, Workflows, Unity3D
 
-* Setting up development environment
-  * Visual Studio 2022
-* Git Setup
-  * LFS setup
-* MRTK Tools for Windows when the headset is wired in
-* Unity
-  * UWP Setup
-  * Grab an Item and save it from a mesh
-  * Unity MRTK vs Unity OpenXR
-  * Unity Packages Options
-    * Unity Probuilder
-    * Unity Timeline
-    * Unity UI-Toolkit
-  * I/O with gaze, gesture, & voice
-    * Accessing the camera and the limitations
-  * Unity MRTK UI Event System for XR vs traditional Unity UI 2D
-  * Getting in data on the headset via Unity WebRequest
-  * URP with MRTK Special Shader
-  * Azure World Anchors Example
-  * Azure Blob storage example
-  * Network Multiple People Example through Azure
-* .NET Limitations with MRTK vs normal .NET C#
+* 9-9:30: Day 1 Recap & Day 2 Goals Outline
+* 9:30-12: Introduction to Unity and Working with Git, GitHub, and understanding workflows
+  * Unity Package Manager, Unity Asset Store, Unity ProBuilder, and Unity UIToolkit
+* Small Break - coffee/restroom
+* 12-1: 3D Modeling Software Installs and processes with Unity
+* 1-2: Lunch Break
+* 2-3:30: Hands-on: 3D modeling and Modifying Unity Projects with 3D models
+* 3:30-4: Q&A Tied to Unity Software Roadmaps - DOTS/ECS, Content/Asset management etc.
+* 4-4:45: Taking what we know and introducing MRTK profiles and getting ready for Unity & HoloLens 2 development
+* 4:45-5: Reflection, Wrap up & Day 2 Feedback
 
-## Five Days
+## Wednesday
 
-Monday: Setup and Configuration ==> Maybe get to Visual Studio example
+### Mixed Reality Tool Kit (MRTK)
 
-* Two Scenarios:
-  * Configured Computers on-site 'ready to go'
-* Setup Process
-  * 2-4 hour block
-* HoloLens Setup
-  * Microsoft Setup with Local Server and developer mode and wired/wireless access
-* Microsoft examples with just Visual Studio to do a deployment
-* How to setup Visual Studio for remote connection and remote deployment over local lan
+* 9-9:30: Day 2 Recap & Day 3 Goals Outline
+* 9:30-11: Introduction to MRTK: themes, interactions, user experience
+* 11-11:15: Small Break
+* 11:30-12:30: In-depth understanding of code/examples for eye and hand tracking
+* 12:30-1:30: Lunch Break
+* 1:30-3: Hands-on: Participants use MRTK in their Unity3D project for different UX interactions and modifying existing samples
+* 3-3:15: Small Break
+* 3:15-4:30: More extensions and utilizing existing work to build and extend customization of MRTK
+* 4:30-5: Reflection, Wrap up & Day 3 Feedback
 
-Tuesday: General Unity 101, git and project setup
+## Thursday
 
-* General Unity in the AM
-* MRTK Project Setup in the PM
-  * Project Setup with MRTK Windows tools for project configuration
+### Deployment and Building for the HoloLens 2
 
-Wednesday: In Depth MRTK Profiles and Unity Project Settings for UWP
+* 9-9:30: Day 3 Recap & Day 4 Goals Outline
+* 9:30-11: Understanding the process of Deployment and Building for the HoloLens 2
+* 11-11:30: Break
+* 11:30-1: Hands-on: Participants try deploying their Unity3D projects on HoloLens 2
+* 1-2: Lunch Break
+* 2-3:30: Extended hands-on session, troubleshooting, and discussion with 3D modeling work
+* 3:30-4: Break
+* 4-4:45: Fine-tuning projects for HoloLens 2
+* 4:45-5: Reflection, Wrap up & Day 4 Feedback
 
-* Going through all of the 12-14 MRTK profiles
-* Input Interactions with hands, eyes, & voice
-* Gaining access to lower level requests with cameras and depth data on board
+## Friday
 
-Thursday & Friday
+### Geospatial Example and Streaming
 
-* [Holographic Remote Overview](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/native/holographic-remoting-overview)
-* [Establish and setup a Unity Environment](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/use-pc-resources) for the following
-  * Preview/Debug Unity Application
-  * Resources of the PC to power the app instead of the HoloLens systems
-  * "In either case, inputs from the HoloLens--gaze, gesture, voice, and spatial mapping--are sent to the PC, content is rendered in a virtual immersive view, and the rendered frames are then sent to the HoloLens."
-* Can get into Azure concepts or use the time leftover to go back through other things
-* If you're all in on the Holographic remote you don't need to build custom Hololens apps for cloud connecting, just build native PC apps that do that and hand that off to your remote holographic application
-* Potree is a WebGL setup: maybe a way to utilize WebXR and the HoloLens as a viewer but would need to better understand Potree.
-  * Looking into alternative options here like [FastPoints](https://github.com/eliasnd/FastPoints)
+* 9-9:30: Day 4 Recap & Day 5 Goals Outline
+* 9:30-11: Introduction to geospatial examples for HoloLens 2, ShaderGraph Solutions for Custom rendering options, open source alternatives and WebXR possibilities.
+* 11-11:30: Break
+* 11:30-1: Hands-on: Participants start implementing geospatial examples in their projects
+* 1-2: Lunch Break
+* 2-3:30: Streaming from a Windows PC and further time to work towards use case examples
+* 3:30-4: Break
+* 4-4:30: Hands-on: Extending personal test projects and/or testing other Unity-HoloLens features and deployment needs
+* 4:30-5: Final Reflection, Course Wrap up, Feedback Collection & Farewell
+
+## Notes
+
+Each day aims to balance theory with hands-on practice and leave room for reflection and feedback. Participants need to pace themselves, as learning is a marathon, not a sprint and this information is a lot to absorb as we are going to be jumping between a few different environments rather quickly at times between Microsoft setup and Unity that alone is a lot to take in, then the HMD and the entire UX around that is a lot as well.
+
+I also want to try to find a way to maintain this conversation with the group - hence the use of GitHub. I think running the project as an Open Source contribution aligns really well and gives them a chance to reach back out through the repository for additional questions.
