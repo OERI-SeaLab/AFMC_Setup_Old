@@ -75,6 +75,7 @@
 *.rvt filter=lfs diff=lfs merge=lfs -text
 *.udatasmith filter=lfs diff=lfs merge=lfs -text
 *.udsmesh filter=lfs diff=lfs merge=lfs -text
+*.pts filter=lfs diff=lfs merge=lfs -text
 # Unity Specific 
 
 #UnityWork/XRQuestTrolley/Assets/Windridge[[:space:]]City[[:space:]]Assets/Windridge[[:space:]]City[[:space:]]Demo[[:space:]]Scene/LightingData.asset filter=lfs diff=lfs merge=lfs -text
