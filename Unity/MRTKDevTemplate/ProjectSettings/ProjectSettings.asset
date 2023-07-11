@@ -844,7 +844,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: Microsoft
   metroCertificateIssuer: Microsoft
-  metroCertificateNotAfter: 80ca38605e8cda01
+  metroCertificateNotAfter: 809cc9726bd2da01
   metroApplicationDescription: MRTK3 Sample
   wsaImages: {}
   metroTileShortName: MRTK3

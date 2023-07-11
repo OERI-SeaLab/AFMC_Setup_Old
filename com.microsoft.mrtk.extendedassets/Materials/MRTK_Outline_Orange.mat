@@ -143,7 +143,7 @@ Material:
     - _VertexExtrusionConstantWidth: 0
     - _VertexExtrusionSmoothNormal: 1
     - _VertexExtrusionSmoothNormals: 1
-    - _VertexExtrusionValue: 0.005
+    - _VertexExtrusionValue: 0.002
     - _ZOffsetFactor: 0
     - _ZOffsetUnits: 0
     - _ZTest: 4

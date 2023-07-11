@@ -2,6 +2,8 @@
 
 * Note: For us it's crucial to structure the workshop in a way that balances both the learning aspect and the hands-on experience. Right now Thursday & Friday are dedicated to expanding upon what we cover in the first three days, that being said we are also going to open up those days more with the groups overall needs as we get half-way through the week: if you all as a group would rather use those days for us to work on specific applications needs and/or work on building out a potential plan to help specific use cases we will be more than welcome to open that up. Here's the current detailed structure for the day:
 
+[Repo Link](https://github.com/VMASC-SeaLab/AFMC_Setup)
+
 ## Monday
 
 ### Setup and Configuration
@@ -23,8 +25,11 @@
 ### Project Management, Workflows, Unity3D
 
 * 9-9:30: Day 1 Recap & Day 2 Goals Outline
-* 9:30-12: Introduction to Unity and Working with Git, GitHub, and understanding workflows
-  * Unity Package Manager, Unity Asset Store, Unity ProBuilder, and Unity UIToolkit
+* 9:30-12: Unity and version control workflows.
+  * GitHub Flow Model
+  * Scriptable Objects
+  * Assemblies
+  * Custom Package Manager
 * Small Break - coffee/restroom
 * 12-1: 3D Modeling Software Installs and processes with Unity
 * 1-2: Lunch Break
